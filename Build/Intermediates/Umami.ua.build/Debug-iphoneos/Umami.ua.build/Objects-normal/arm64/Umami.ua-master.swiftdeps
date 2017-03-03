@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.36.2 clang-802.0.35)"
+options: "573ed55d7a56c7ba05d53b33ecae7e61"
+build_time: [541772597, 659121000]
+inputs:
+  "/Users/octoberhammer/Developer/Umami.ua/Umami.ua/Utils.swift": [541686894, 0]
+  "/Users/octoberhammer/Developer/Umami.ua/Umami.ua/AppDelegate.swift": [541626221, 0]
+  "/Users/octoberhammer/Developer/Umami.ua/Umami.ua/NewsViewCell.swift": [541678032, 0]
+  "/Users/octoberhammer/Developer/Umami.ua/Umami.ua/MealViewCell.swift": [541692280, 0]
+  "/Users/octoberhammer/Developer/Umami.ua/Umami.ua/AsianStreetFoodTVC.swift": [541772597, 0]

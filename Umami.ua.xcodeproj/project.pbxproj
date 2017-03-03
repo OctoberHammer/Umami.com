@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		C31173021E660A6D00328CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31173011E660A6D00328CDD /* AppDelegate.swift */; };
-		C31173041E660A6D00328CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31173031E660A6D00328CDD /* ViewController.swift */; };
 		C31173071E660A6D00328CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31173051E660A6D00328CDD /* Main.storyboard */; };
 		C31173091E660A6D00328CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31173081E660A6D00328CDD /* Assets.xcassets */; };
 		C311730C1E660A6D00328CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C311730A1E660A6D00328CDD /* LaunchScreen.storyboard */; };
+		C31173141E660DBE00328CDD /* AsianStreetFoodTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31173131E660DBE00328CDD /* AsianStreetFoodTVC.swift */; };
+		C31173161E6610F700328CDD /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C31173151E6610F700328CDD /* SourceSansPro-Regular.otf */; };
+		C31173191E66D48400328CDD /* MealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31173171E66D48400328CDD /* MealViewCell.swift */; };
+		C311731A1E66D48400328CDD /* MealViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31173181E66D48400328CDD /* MealViewCell.xib */; };
+		C311731D1E66D4D000328CDD /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C311731B1E66D4D000328CDD /* NewsViewCell.swift */; };
+		C311731E1E66D4D000328CDD /* NewsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C311731C1E66D4D000328CDD /* NewsViewCell.xib */; };
+		C31173201E66EB0100328CDD /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C311731F1E66EB0100328CDD /* SourceSansPro-Bold.otf */; };
+		C31173221E66F06300328CDD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31173211E66F06300328CDD /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C31172FE1E660A6D00328CDD /* Umami.ua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umami.ua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31173011E660A6D00328CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C31173031E660A6D00328CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C31173061E660A6D00328CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C31173081E660A6D00328CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C311730B1E660A6D00328CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C311730D1E660A6D00328CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31173131E660DBE00328CDD /* AsianStreetFoodTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsianStreetFoodTVC.swift; sourceTree = "<group>"; };
+		C31173151E6610F700328CDD /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		C31173171E66D48400328CDD /* MealViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewCell.swift; sourceTree = "<group>"; };
+		C31173181E66D48400328CDD /* MealViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealViewCell.xib; sourceTree = "<group>"; };
+		C311731B1E66D4D000328CDD /* NewsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		C311731C1E66D4D000328CDD /* NewsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewCell.xib; sourceTree = "<group>"; };
+		C311731F1E66EB0100328CDD /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		C31173211E66F06300328CDD /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				C31173011E660A6D00328CDD /* AppDelegate.swift */,
-				C31173031E660A6D00328CDD /* ViewController.swift */,
+				C31173211E66F06300328CDD /* Utils.swift */,
+				C311731F1E66EB0100328CDD /* SourceSansPro-Bold.otf */,
+				C31173151E6610F700328CDD /* SourceSansPro-Regular.otf */,
+				C31173131E660DBE00328CDD /* AsianStreetFoodTVC.swift */,
 				C31173051E660A6D00328CDD /* Main.storyboard */,
 				C31173081E660A6D00328CDD /* Assets.xcassets */,
 				C311730A1E660A6D00328CDD /* LaunchScreen.storyboard */,
 				C311730D1E660A6D00328CDD /* Info.plist */,
+				C31173171E66D48400328CDD /* MealViewCell.swift */,
+				C31173181E66D48400328CDD /* MealViewCell.xib */,
+				C311731B1E66D4D000328CDD /* NewsViewCell.swift */,
+				C311731C1E66D4D000328CDD /* NewsViewCell.xib */,
 			);
 			path = Umami.ua;
 			sourceTree = "<group>";
@@ -125,7 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C311730C1E660A6D00328CDD /* LaunchScreen.storyboard in Resources */,
+				C31173201E66EB0100328CDD /* SourceSansPro-Bold.otf in Resources */,
+				C311731A1E66D48400328CDD /* MealViewCell.xib in Resources */,
 				C31173091E660A6D00328CDD /* Assets.xcassets in Resources */,
+				C311731E1E66D4D000328CDD /* NewsViewCell.xib in Resources */,
+				C31173161E6610F700328CDD /* SourceSansPro-Regular.otf in Resources */,
 				C31173071E660A6D00328CDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31173041E660A6D00328CDD /* ViewController.swift in Sources */,
+				C31173221E66F06300328CDD /* Utils.swift in Sources */,
 				C31173021E660A6D00328CDD /* AppDelegate.swift in Sources */,
+				C311731D1E66D4D000328CDD /* NewsViewCell.swift in Sources */,
+				C31173191E66D48400328CDD /* MealViewCell.swift in Sources */,
+				C31173141E660DBE00328CDD /* AsianStreetFoodTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +328,7 @@
 				C31173121E660A6D00328CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

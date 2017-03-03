@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.otf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="MealViewCell" customModule="Umami_ua" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laksa" translatesAutoresizingMaskIntoConstraints="NO" id="tAN-ln-csu">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="СУП ЛАКСА З КРЕВЕТКАМИ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcv-hZ-7Pj">
+                        <rect key="frame" x="8" y="40" width="324" height="25"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="85 ₴ / 500г" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJw-e5-Uht">
+                        <rect key="frame" x="124" y="73" width="86" height="21"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="18"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sht-18-3Dx">
+                        <rect key="frame" x="88" y="113" width="185" height="28"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="185" id="n13-Jp-jnD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="17"/>
+                        <state key="normal" title="Замовити">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="addToBasket:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rM5-7U-lWv"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Lcv-hZ-7Pj" secondAttribute="trailing" id="9bn-Ar-Qaf"/>
+                    <constraint firstItem="KJw-e5-Uht" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="KcD-V4-nye"/>
+                    <constraint firstItem="sht-18-3Dx" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="MZm-jP-rIO"/>
+                    <constraint firstItem="sht-18-3Dx" firstAttribute="top" secondItem="KJw-e5-Uht" secondAttribute="bottom" constant="19" id="OsI-wd-Egm"/>
+                    <constraint firstItem="KJw-e5-Uht" firstAttribute="top" secondItem="Lcv-hZ-7Pj" secondAttribute="bottom" constant="8" id="QCo-wV-PSC"/>
+                    <constraint firstItem="Lcv-hZ-7Pj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="32" id="Sww-sn-aFS"/>
+                    <constraint firstItem="Lcv-hZ-7Pj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="tDt-GA-Tp9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelName" destination="Lcv-hZ-7Pj" id="qNx-Bu-FyL"/>
+                <outlet property="labelPriceWeight" destination="KJw-e5-Uht" id="FT2-yB-5yw"/>
+                <outlet property="mealImage" destination="tAN-ln-csu" id="O9F-iF-P1h"/>
+            </connections>
+            <point key="canvasLocation" x="45" y="131"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="laksa" width="500" height="500"/>
+    </resources>
+</document>
